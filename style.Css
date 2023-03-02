@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+body {
+    background: url(/images/pexels-adrien-olichon-3137052.jpg) no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.first {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mian_btn {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 1PX;
+    text-decoration: underline paleturquoise;
+    color: white;
+    background-color: green;
+    border-radius: 30px;
+    width: 500px;
+    height: 80px;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    right: 380px;
+    transition: 0.7s ease;
+}
+
+.mian_btn:hover {
+    background-color: bisque;
+    color: green;
+}
+
+.sec {
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 130px;
+}
+
+.thr {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-top: 130px;
+
+}
+
+.photos {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.contant{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 12.8px;
+    text-align: center;
+    background-color: bisque;
+    transition: 0.7s ease;
+    height: 100%;
+}
+
+.contant:hover {
+    transform: scale(1.1);
+}
+
+.img1 {
+    width: 300px;
+    height: 250px;
+}
+
+.text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-color: green;
+    color: black;
+}
+
+.main {
+    margin-top: 80px;
+    margin-left: 500px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+
+.main:hover {
+    background-color: bisque;
+    color: green;
+}
+
+.ba {
+    background: url(/images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.choose {
+    justify-content: space-between;
+}
+
+.contant1 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 12.8px;
+    text-align: center;
+    background-color: bisque;
+    transition: 0.7s ease;
+    height: 100%;
+    position: relative;
+    left: 200px;
+}
+
+.contant1:hover {
+    transform: scale(1.1);
+}
+
+.contant2 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 12.8px;
+    text-align: center;
+    background-color: bisque;
+    transition: 0.7s ease;
+    height: 100%;
+    position: relative;
+    left: 400px;
+}
+
+.contant2:hover {
+    transform: scale(1.1);
+}
+
+.contantmena {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 12.8px;
+    text-align: center;
+    background-color: bisque;
+    transition: 0.7s ease;
+    height: 100%;
+}
+
+.contant2:hover {
+    transform: scale(1.1);
+}
+
+.text1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.contantQca {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 12.8px;
+    text-align: center;
+    background-color: bisque;
+    transition: 0.7s ease;
+    height: 100%;
+    position: relative;
+    left: 200px;
+}
+
+.contantQcb {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 12.8px;
+    text-align: center;
+    background-color: bisque;
+    transition: 0.7s ease;
+    height: 100%;
+    position: relative;
+    left: 450px;
+}
+
+.contant3 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 12.8px;
+    text-align: center;
+    background-color: bisque;
+    transition: 0.7s ease;
+    height: 100%;
+    position: relative;
+    left: 200px;
+}
+
+.contant4 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 12.8px;
+    text-align: center;
+    background-color: bisque;
+    transition: 0.7s ease;
+    height: 100%;
+    position: relative;
+    left: 450px;
+}
